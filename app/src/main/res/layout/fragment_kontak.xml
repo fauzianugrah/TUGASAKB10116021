@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KontakFragment"
+    android:background="@drawable/animation_list2">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:text="Kontak"
+        android:textColor="@color/white"
+        android:layout_marginBottom="240dp"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="50dp"
+        android:src="@drawable/ic_phone_in_talk_white_24dp"/>
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="50dp"
+        android:src="@drawable/ic_email_white_24dp"/>
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="50dp"
+        android:src="@drawable/ig"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Fauzianugrah29@gmail.com"
+        android:layout_marginTop="223dp"
+        android:layout_marginLeft="100dp"
+        android:textColor="@color/white"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 087806754922"
+        android:layout_marginTop="183dp"
+        android:layout_marginLeft="100dp"
+        android:textColor="@color/white"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" @fauzislamer"
+        android:layout_marginTop="263dp"
+        android:layout_marginLeft="100dp"
+        android:textColor="@color/white"
+        android:textSize="20dp"/>
+</FrameLayout>
